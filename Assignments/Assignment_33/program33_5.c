@@ -19,8 +19,6 @@
 
 void DisplaySchedule(char chDiv[])
 {
-    int iCnt = 0;
-
     while (*chDiv != '\0')
     {
         switch (*chDiv)
