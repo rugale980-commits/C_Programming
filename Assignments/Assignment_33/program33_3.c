@@ -25,8 +25,6 @@ typedef int BOOL;
 
 BOOL ChkAlpha(char str[])
 {
-    int iCnt = 0;
-
     while (*str != '\0')
     {
         if ((*str >= '0') && (*str <= '9'))
