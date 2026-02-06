@@ -10,7 +10,7 @@ typedef unsigned int UINT;
 
 ////////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name : ToggleBit
+//  Function Name : OffBit
 //  Description   : Write a program which accept one number from user & 7th
 //                  and 10th bit of that number.Return modified number.
 //  Input         : Integer
@@ -20,7 +20,7 @@ typedef unsigned int UINT;
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-UINT ToggleBit(UINT NO)
+UINT OffBit(UINT NO)
 {
     UINT Mask = 0;
 
@@ -43,7 +43,7 @@ int main()
     printf("Enter the number : \n");
     scanf("%u", &iNo);
 
-    iRet = ToggleBit(iNo);
+    iRet = OffBit(iNo);
 
     printf("Modified number is : %d\n", iRet);
 
